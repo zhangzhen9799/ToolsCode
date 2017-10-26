@@ -14,7 +14,7 @@ public class MailTest {
         String host = "pop.qq.com";
         int port = 995;
         String username = "QQ号码@qq.com";
-        String password = "授权嘛";
+        String password = "授权码";
 
         Properties properties = new Properties();
         properties.put("mail.pop3.ssl.enable", isSSL);
